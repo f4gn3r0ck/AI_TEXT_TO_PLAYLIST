@@ -34,8 +34,8 @@ from tkinter import messagebox, ttk
 import wave
 
 # Configurações de autenticação
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="e2b6c40e592a452489fd08e46ae7c39d",
-                                               client_secret="a68529b608354d078e5591f07f5cb19e",
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="e2b6c40e592a452489fd08e46dsafdsfc39d",
+                                               client_secret="a68529b60fgfdgfdg78e5591f07f5cb19e",
                                                redirect_uri="http://localhost:8888/callback",
                                                scope="playlist-modify-public user-top-read"))
 
